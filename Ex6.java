@@ -34,9 +34,9 @@ public class Ex6 {
         }
 
 
-        if ((temp < 10)&&(raining == true)){
+        if ((temp < 10)&&(raining)){
             System.out.println("Всвязи с погодой. У вас сегодня будет грустное настроение.");
-        }else if((temp > 25)&&(raining == false)){
+        }else if((temp > 25)&&(!raining)){
             System.out.println("Всвязи с погодой. У вас сегодня будет хорошее настроение.");
         }else if(result1 == 1){
             System.out.println("Запустите программу заново.");
